@@ -2,16 +2,14 @@ name: javascript-npm-react
 namespace: ""
 cdPipelineName: ""
 cdPipelineStageName: ""
-dnsWildcard: eks-delivery.aws.main.edp.projects.epam.com
+dnsWildcard: gcp.edp-epam.com
 
 database:
   required: false
 
 
 ingress:
-  required: true
-  site: edp
-  path: /
+  required: false
 
 image:
   name: javascript-npm-react

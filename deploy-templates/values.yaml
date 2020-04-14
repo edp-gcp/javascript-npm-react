@@ -2,7 +2,7 @@ name: javascript-npm-react
 namespace: ""
 cdPipelineName: ""
 cdPipelineStageName: ""
-dnsWildcard: gcp.edp-epam.com
+dnsWildcard: k9s.ru
 
 database:
   required: false
